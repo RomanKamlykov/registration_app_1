@@ -1,4 +1,3 @@
 node_modules
 public/.parcel-cache
-public/dist
 nodemon.json
