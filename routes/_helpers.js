@@ -1,6 +1,6 @@
-function validateParams([name, value]) {
+function validateParams([key, value]) {
   let error;
-  switch (name) {
+  switch (key) {
     case 'email': {
       const isValid = value.match(/\b[\w.-]+@[\w.-]+\.\w{2,4}\b/gi);
       if (!isValid) error = 'Email is invalid';

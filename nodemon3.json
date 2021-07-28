@@ -1,0 +1,12 @@
+{
+  "env": {
+    "HOST": "localhost",
+    "DBPORT": "3306",
+    "USER": "nodemysqluser",
+    "PASSWORD": "Ada117121",
+    "DB": "nodemysql",
+    "DIALECT": "mysql",
+    "PORT": "3000",
+    "JWT_SECRET": "secret"
+  }
+}
