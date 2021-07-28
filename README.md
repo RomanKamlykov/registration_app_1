@@ -1,21 +1,23 @@
 # Registration App 1
 
-Live demo is [here](https://dreamy-davinci-29175c.netlify.app/)
+Live demo is [here](https://mysterious-dusk-90990.herokuapp.com/)
 
 ## Summary
 
 The application uses:
-- Vue front-end framework, Vue Router & Vuex
-- Netlify Functions for handling API requests
+- Vue front-end framework & Vue Router
+- Node & Express back-end framework
+- MySQL database & Sequelize ORM
 
 ## Usage
-- add, update and remove locations on the home screen
-- get the weather for the current location
-- get a weather forecast for 8 hours for a specific location
+- register a new user
+- login an existing user with login + password OR email + password
+- logout the user
 
 ## Project setup
-- get the app files: `git clone https://github.com/RomanKamlykov/weather_app_1.git`
-- install dependencies: `npm install`
-- get an API key here https://openweathermap.org/
-- add an `.env` file to the root directory with an `API_KEY` property
-- run the app localy: `npx netlify dev`
+- get the app files: `git clone https://github.com/RomanKamlykov/registration_app_1`
+- install server dependencies: `npm install`
+- install client dependencies: `cd public`, `npm install`
+- add a `nodemon.json` file to the root directory with a list of properties
+- add countries from the `countries.ods` file to the Country database
+- run the app localy: `npm run dev`
