@@ -2,6 +2,7 @@
   "env": {
     "HOST": "localhost",
     "USER": "user",
+    "DBPORT": "3306",
     "PASSWORD": "password",
     "DB": "mydb1",
     "DIALECT": "mysql",
