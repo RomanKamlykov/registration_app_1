@@ -1,0 +1,11 @@
+{
+  "env": {
+    "HOST": "localhost",
+    "USER": "user",
+    "PASSWORD": "password",
+    "DB": "mydb1",
+    "DIALECT": "mysql",
+    "PORT": "3000",
+    "JWT_SECRET": "secret"
+  }
+}
